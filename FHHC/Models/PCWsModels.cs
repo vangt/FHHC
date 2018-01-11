@@ -19,12 +19,10 @@ namespace FHHC.Models
 
         public List<string> Clients { get; set; }
 
-        public List<string> Addresses { get; set; }
+        public List<AddressModels> Addresses { get; set; }
 
         public string PhoneNumber { get; set; }
 
         public string Email { get; set; }
-
-
     }
 }

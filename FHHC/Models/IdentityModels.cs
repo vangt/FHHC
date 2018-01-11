@@ -35,5 +35,7 @@ namespace FHHC.Models
         }
 
         public DbSet<PCWsModels> PCWs { get; set; }
+
+        public DbSet<AddressModels> Addresses { get; set; }
     }
 }

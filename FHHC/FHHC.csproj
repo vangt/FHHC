@@ -205,8 +205,21 @@
     <Compile Include="Migrations\201801112113025_adding pcw model.Designer.cs">
       <DependentUpon>201801112113025_adding pcw model.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201801112205516_changed PCW fields.cs" />
+    <Compile Include="Migrations\201801112205516_changed PCW fields.Designer.cs">
+      <DependentUpon>201801112205516_changed PCW fields.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801112212587_Add Address Model.cs" />
+    <Compile Include="Migrations\201801112212587_Add Address Model.Designer.cs">
+      <DependentUpon>201801112212587_Add Address Model.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201801112220585_Add Address model to db.cs" />
+    <Compile Include="Migrations\201801112220585_Add Address model to db.Designer.cs">
+      <DependentUpon>201801112220585_Add Address model to db.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
+    <Compile Include="Models\AddressModels.cs" />
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Models\PCWsModels.cs" />
@@ -288,6 +301,15 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201801112113025_adding pcw model.resx">
       <DependentUpon>201801112113025_adding pcw model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801112205516_changed PCW fields.resx">
+      <DependentUpon>201801112205516_changed PCW fields.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801112212587_Add Address Model.resx">
+      <DependentUpon>201801112212587_Add Address Model.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201801112220585_Add Address model to db.resx">
+      <DependentUpon>201801112220585_Add Address model to db.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
