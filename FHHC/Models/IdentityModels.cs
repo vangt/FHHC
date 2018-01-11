@@ -33,5 +33,7 @@ namespace FHHC.Models
         {
             return new ApplicationDbContext();
         }
+
+        public DbSet<PCWsModels> PCWs { get; set; }
     }
 }
