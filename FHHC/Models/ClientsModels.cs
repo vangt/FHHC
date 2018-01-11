@@ -5,19 +5,17 @@ using System.Web;
 
 namespace FHHC.Models
 {
-    public class PCWsModels
+    public class ClientsModels
     {
         public int Id { get; set; }
 
-        public DateTime? DateHired { get; set; }
-
-        public List<DateTime?> DateCheck { get; set; }
+        public string DateStarted { get; set; }
 
         public string FirstName { get; set; }
 
         public string LastName { get; set; }
 
-        public List<ClientsModels> Clients { get; set; }
+        public List<PCWsModels> PCWs { get; set; }
 
         public List<AddressModels> Addresses { get; set; }
 
