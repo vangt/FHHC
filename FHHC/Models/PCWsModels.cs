@@ -11,10 +11,20 @@ namespace FHHC.Models
 
         public DateTime? DateHired { get; set; }
 
-        public DateTime? FirstCheck { get; set; }
+        public List<DateTime?> DateCheck { get; set; }
 
-        public DateTime? LastCheck { get; set; }
+        public string FirstName { get; set; }
 
-        public DateTime? NextCheck { get; set; }
+        public string LastName { get; set; }
+
+        public List<string> Clients { get; set; }
+
+        public List<string> Addresses { get; set; }
+
+        public string PhoneNumber { get; set; }
+
+        public string Email { get; set; }
+
+
     }
 }
